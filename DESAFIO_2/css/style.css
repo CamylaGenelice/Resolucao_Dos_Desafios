@@ -1,0 +1,59 @@
+body {
+    background-color: #f3f2f2;
+    font-family: 'Arial', 'Segoe UI', sans-serif;
+}
+.preview-container {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 20px;
+            padding: 30px;
+            color: white;
+            min-height: 500px;
+}
+.profile-img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid white;
+            margin-bottom: 20px;
+}
+
+.form-container {
+            border-radius: 20px !important;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            background: linear-gradient(135deg, #0dcaf0 0%, #0aa2c0 100%) !important;
+            border: none;
+            width: 100%;
+            max-width: 400px;
+        }
+        
+.form-control {
+            border-radius: 10px;
+            border: 1px solid #dee2e6;
+        }
+        
+.form-control:focus {
+            border-color: #0dcaf0;
+            box-shadow: 0 0 0 0.2rem rgba(13, 202, 240, 0.25);
+        }
+        
+.btn {
+            border-radius: 10px;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+        
+.btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+        
+.form-label {
+            font-weight: 500;
+            color: #fff;
+        }
+        
+h4 {
+            color: #fff;
+            font-weight: 600;
+        }
